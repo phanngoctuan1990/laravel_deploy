@@ -22,9 +22,9 @@ add('writable_dirs', []);
 
 // Hosts
 
-host('13.229.222.209')
-    ->user('deployer')
-    ->identityFile('~/.ssh/deployerkey')
+host('3.1.6.136')
+    ->user('dev')
+    ->identityFile('~/.ssh/id_rsa')
     ->set('deploy_path', '/var/www/html/laravel_deploy');
 
 // Tasks
