@@ -39,5 +39,3 @@ task('build', function () {
 // Migrate database before symlink new release.
 
 //before('deploy:symlink', 'artisan:migrate');
-before('deploy:symlink');
-
