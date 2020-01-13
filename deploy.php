@@ -10,7 +10,7 @@ set('application', 'laravel_deploy');
 set('repository', 'git@github.com:phanngoctuan1990/laravel_deploy.git');
 
 // [Optional] Allocate tty for git clone. Default value is false.
-set('git_tty', false);
+set('git_tty', true);
 
 // Shared files/dirs between deploys
 add('shared_files', []);
